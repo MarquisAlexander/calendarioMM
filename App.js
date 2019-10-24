@@ -4,6 +4,7 @@ import * as Font from 'expo-font';
 import React, { useState } from 'react';
 import { Platform, StatusBar, StyleSheet, View, WebView } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import "./assets/StatusBar";
 
 import AppNavigator from './navigation/AppNavigator';
 
