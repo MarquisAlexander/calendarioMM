@@ -1,21 +1,21 @@
 import React from 'react';
-import { ScrollView, StyleSheet } from 'react-native';
+import { ScrollView, StyleSheet, Text, View, SafeAreaView, FlatList } from 'react-native';
 import { ExpoLinksView } from '@expo/samples';
 
 export default function LinksScreen() {
   return (
     <ScrollView style={styles.container}>
-      {/**
-       * Go ahead and delete ExpoLinksView and replace it with your content;
-       * we just wanted to provide you with some helpful links.
-       */}
-      <ExpoLinksView />
+              <View style={styles.equipe}>
+                <Text>Developer: Marquis</Text>
+                <Text>Designer: Werdeles</Text>
+                <Text>Fernando cheirinhull</Text>
+              </View>
     </ScrollView>
   );
 }
 
 LinksScreen.navigationOptions = {
-  title: 'Links',
+  title: 'Equipe DEV',
 };
 
 const styles = StyleSheet.create({
@@ -23,5 +23,9 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 15,
     backgroundColor: '#fff',
+  },
+  equipe: {
+    flexGrow: 1,
+    marginLeft:10,
   },
 });
