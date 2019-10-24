@@ -16,7 +16,7 @@ export default function HomeScreen() {
     //webview é a renderização da tela
     <View style={styles.container}>
       <Text style={styles.textStart}>Calendário</Text>
-      <WebView source={{ uri: 'https://facebook.github.io/react-native/' }} /> 
+      <WebView source={{ uri: 'https://www.supersaas.com.br/schedule/Fernando_Nascimento/Calend%C3%A1rio_de_Reuni%C3%B5es_M&M' }} /> 
       </View>
   );
 }
